@@ -16,7 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: sacheex/sacheex.github.io
           fetch-depth: 0
 
       - name: Install pnpm
